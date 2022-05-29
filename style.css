@@ -1,0 +1,127 @@
+body{                                 /*body */
+    display:flex ;
+    background-color: rgb(18, 143, 74);
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    width:100vw;
+    align-items: center;
+} 
+.container{                             /* Div for background*/
+        display:flex ;
+    background-color:pink;
+    height:100vh;
+    width:100vw;
+    align-items: center;
+     
+ border: solid black 1px;
+}
+
+ .header{                       /* Div for icons bar*/ 
+   
+   display: flex;
+ 
+   flex:1;
+   flex-grow: initial;
+   flex-direction: column;
+    
+    background-color:  #ffffff; 
+  
+} 
+#menu{                              
+                        /* Menu icon */
+flex: 1;
+list-style: none;
+font-size:30px ;
+color:white ;
+background-color: #c97aff;
+justify-content: flex-start;
+align-items: flex-start;
+
+}
+#profile{                      /*Div have mid 5 icon */
+    
+font-size: 20px;
+flex: 2;
+justify-content: center;
+align-items: center;
+background-color: rgb(255, 255, 255);
+padding: 0px 0px 0px 0px;
+}
+
+.cloud{                     /* Cloud icon*/
+    display: flex;
+
+    list-style: none;
+justify-content: flex-start;
+align-items: flex-end;
+background-color:rgb(255, 255, 255);
+padding: 0px 0px;
+}
+
+#info1list{         /* div contain same propety of icon*/          
+   
+    list-style: none;
+
+}
+
+
+.image{               /*Div contain Image*/
+    display: flex;
+}
+
+
+.image > img{             /*Apply properties o image*/
+      height:550px;
+   width: 197px ; 
+   border-style:outset;
+}
+
+
+
+
+.info{                    /*Div contain Information*/
+    display: flex;
+    flex: 1;
+        align-items: stretch;
+       background-color: rgb(255, 255, 255);
+       flex-direction: column;
+   }
+
+.st{                        /* contain background color  */
+background-color: rgb(255, 255, 255);  
+
+}
+
+#col {    /*contain same propeties of  class info 3 and info 4*/
+    display: flex;
+    
+flex-direction: row;
+}
+
+.info3{             /* contain development information*/
+display: flex;
+    flex:1 ;
+    flex-direction:column ;
+   
+   
+}
+
+.info4{      /* contain optimization information*/
+  display: flex;
+    flex:1 ;
+    flex-direction:column ;
+   
+
+   
+} 
+#info-3-list{                   /* desktop and rocket icon */
+   
+    list-style: none;
+font-size: 30px;
+}
+
+.pad-mar{                              /* div contain same properties of Info div */
+    padding: 0px;
+    margin: 40px 0px 40px 0px;
+}
